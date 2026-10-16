@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>매일 헤어 뉴스</title>
+<style>
+:root{--ink:#1f2328;--sub:#6b7280;--line:#e5e7eb;--bg:#faf8f6;--card:#fff;--pt:#b4536b;--pt2:#f6e6ea}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;line-height:1.5}
+header{padding:28px 20px 16px;max-width:860px;margin:0 auto}
+h1{margin:0;font-size:24px;letter-spacing:-.02em}
+.meta{color:var(--sub);font-size:13px;margin-top:4px}
+.bar{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+.bar-in{max-width:860px;margin:0 auto;padding:10px 20px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+select,input{font:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:#fff}
+input{flex:1;min-width:140px}
+.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer}
+.chip.on{background:var(--pt);color:#fff;border-color:var(--pt)}
+main{max-width:860px;margin:0 auto;padding:8px 20px 60px}
+section{margin-top:26px}
+h2{font-size:16px;margin:0 0 10px;display:flex;align-items:center;gap:8px}
+h2 span{font-size:12px;background:var(--pt2);color:var(--pt);padding:2px 8px;border-radius:999px;font-weight:600}
+a.item{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:8px;text-decoration:none;color:inherit}
+a.item:hover{border-color:var(--pt)}
+.t{font-weight:600;font-size:15px}
+.s{color:var(--sub);font-size:12px;margin-top:3px}
+.empty{color:var(--sub);padding:40px 0;text-align:center}
+footer{max-width:860px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>매일 헤어 뉴스</h1>
+  <div class="meta" id="meta">불러오는 중…</div>
+</header>
+<div class="bar"><div class="bar-in">
+  <select id="date" aria-label="날짜 선택"></select>
+  <input id="q" type="search" placeholder="제목·출처 검색">
+  <span id="chips"></span>
+</div></div>
+<main id="list"></main>
+<footer>기사 제목과 링크는 Google 뉴스 검색 결과를 매일 오전 7시(한국시간)에 자동 수집한 것입니다. 기사 저작권은 각 언론사에 있으며, 자세한 내용은 원문 링크에서 확인하세요.</footer>
+<script src="data/bundle.js"></script>
+<script>
+let day=null,cat="all",cache={};
+const $=id=>document.getElementById(id);
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const wd=["일","월","화","수","목","금","토"];
+const label=d=>{const x=new Date(d+"T00:00:00");return `${d} (${wd[x.getDay()]})`};
+async function j(u){
+  try{const r=await fetch(u+"?v="+Date.now());if(!r.ok)throw 0;return await r.json()}
+  catch(e){ // 파일을 직접 연 경우: bundle.js 사용
+    const B=window.HAIR_BUNDLE;if(!B)throw e;
+    return u.endsWith("index.json")?{dates:B.dates}:B.days[u.match(/\d{4}-\d{2}-\d{2}/)[0]];
+  }
+}
+async function load(d){
+  day=d;
+  if(!cache[d])cache[d]=await j(`data/${d}.json`);
+  const data=cache[d];
+  $("meta").textContent=`${label(d)} · ${data.total}건 · 갱신 ${data.updated.replace("T"," ").slice(0,16)}`;
+  $("chips").innerHTML=[["all","전체"],...data.categories.map(c=>[c.id,c.name])]
+    .map(([id,n])=>`<button class="chip ${cat===id?"on":""}" data-c="${id}">${n}</button>`).join(" ");
+  render();
+}
+function render(){
+  const data=cache[day],q=$("q").value.trim().toLowerCase();let html="";
+  for(const c of data.categories){
+    if(cat!=="all"&&cat!==c.id)continue;
+    const items=c.items.filter(i=>!q||(i.title+i.source).toLowerCase().includes(q));
+    if(!items.length)continue;
+    html+=`<section><h2>${c.name}<span>${items.length}</span></h2>`+items.map(i=>
+      `<a class="item" href="${esc(i.url)}" target="_blank" rel="noopener"><div class="t">${esc(i.title)}</div><div class="s">${esc(i.source)} · ${i.published.slice(5,16).replace("T"," ")}</div></a>`).join("")+`</section>`;
+  }
+  $("list").innerHTML=html||`<div class="empty">표시할 기사가 없습니다.</div>`;
+}
+$("chips").addEventListener("click",e=>{const b=e.target.closest("[data-c]");if(b){cat=b.dataset.c;load(day)}});
+$("q").addEventListener("input",render);
+$("date").addEventListener("change",e=>load(e.target.value));
+(async()=>{
+  try{
+    const {dates}=await j("data/index.json");
+    $("date").innerHTML=dates.map(d=>`<option value="${d}">${label(d)}</option>`).join("");
+    await load(dates[0]);
+  }catch(e){$("meta").textContent="";$("list").innerHTML=`<div class="empty">아직 수집된 뉴스가 없습니다.<br></div>`}
+})();
+</script>
+</body>
+</html>
