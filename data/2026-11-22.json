@@ -1,0 +1,217 @@
+{
+ "date": "2026-11-22",
+ "updated": "2026-11-22T10:55+09:00",
+ "total": 31,
+ "categories": [
+  {
+   "id": "kr-news",
+   "name": "국내 헤어 뉴스",
+   "items": [
+    {
+     "title": "경남정보대, 헤어브랜드 4곳과 취업 연계 협력 강화",
+     "source": "중도일보",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92dG5mdEFnQ3JlMWFhSmxOUDNXdzUyanAtRDlMX0lQcGVkaTZoVm5VRDFVNzdNb0luUkMxbG1MYy1TTFNBZGFFd09rZTRTT3hmZVZHekhJU0RjYUlJeFlOUnlqVWI?oc=5",
+     "published": "2026-11-22T10:41+09:00"
+    },
+    {
+     "title": "[해외취업] 뉴질랜드, 철도 정비원·미용사 2건 채용…11월 30일 마감분 포함",
+     "source": "한국사회복지저널",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81aEdJSHFtLVJaRTFFelFPQkd2dkRMNW1TazBhYmtKSGo5cGRsVjFLS1VpdGpaSlRTbkZDYmFBRU96QmIwX0RObVVRQTNrdTVhaE1yZ09wRlZZang2VXEyOF8xODJEdHFTeDBV?oc=5",
+     "published": "2026-11-22T10:04+09:00"
+    },
+    {
+     "title": "[ET포토] 박형대, 'OMC 헤어월드 디렉터상 수상'",
+     "source": "전자신문",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12bVJvWlY2Z1lUVmVHaVZoM3RvOWhlTlpJejBDMlQ3RnJIYUtqbjRwNFJ4WjdDTE9aSlVhMnQydnJINk8tQWZOWlBxeFltQQ?oc=5",
+     "published": "2026-11-22T06:00+09:00"
+    },
+    {
+     "title": "[포토] 박형대, AMF FESTA OMC 헤어월드 디렉터상 수상",
+     "source": "아주경제",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EaTNzeFhpekJkRjM1SHpiaTRjMmNHa3VoV0xRUmFMY0ZEQ0VQbmRjUHhrX05Hb0g3VWJfeGtNelF6ZXZvY2MycHhGeGN3emsySExJTlczU0Q2QdIBWEFVX3lxTE00SmZpdzdlR3BfNERHRF91eUx2Q0JBOVBvWEFhdklJRnBCRVFHbDJVWHc4OVJGclliOHZtNkl5Wko4TUtVbGg1cV9LQ2ljb3VUMEx0cy1icTY?oc=5",
+     "published": "2026-11-22T02:58+09:00"
+    },
+    {
+     "title": "[HD포토] 박형대, ‘OMC 헤어월드 디렉터상’ 수상 (아시아모델페스티벌)",
+     "source": "톱스타뉴스",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5DeGVUbHp5VWRScE9DYmM0aURKZXBDYUVCQlM4b19NUjZ3amoxM2l0UUVIOGpVTkJlZ3dud0k4WmQwRlY0TWhXTTh4QTVJVUc4cE82MXZob0NSQXhKMTNQNXVqQWYwcWI5dWI4VFRQTE0yZw?oc=5",
+     "published": "2026-11-22T00:59+09:00"
+    },
+    {
+     "title": "로로보아 스타일톡 무선 헤어브러쉬, 블라썸핑크, 1개",
+     "source": "toss.im",
+     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1vckRRNzFRS0Vib3ZnZXhXMGx5N1ZVNXNjTFBLTWpWREdPRFljbko3LXhhQ1JndjZHRXRyaVJucHc?oc=5",
+     "published": "2026-11-22T00:44+09:00"
+    },
+    {
+     "title": "권기형 'AMF FESTA OCM 헤어월드 디렉터상 수상' [포토]",
+     "source": "BNT뉴스",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqaTl2dVNyQkN6MzI5OXEwQXBoWFVWdjViZzdhQUJoTk5MbGVBQlVoZk92eWpDX1Q4cndyd0FnRUxsalRlZEpPZ0tlMUN2dGQ5aVBLS3FzQk13VUtFdzhQS1dPc0I?oc=5",
+     "published": "2026-11-22T00:31+09:00"
+    },
+    {
+     "title": "Grand Theft Auto 6 옷 가게 위치 공략: 신발 매장 및 미용실 찾는 법 완벽 정리",
+     "source": "games.gg",
+     "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNRWRXTlBPVVBjR3lXS09pdzFzSC00MlZWMFZtVFpFTzRuZ1pERmZMTUtIbF9FbExVcGNtd1pGdjh0bWFSbkxKMWtiT1hsRW5oMVBLNy1KR18zUFR2REdjUW0wVkdpeEZicThfNlhPZmo4ZXNtYWllcXUzOG1pSGIyWE53Q0tDWnJuYjFHdmZEM2NwYmpSb3Q2VGFtVkFyN1lnRWU2MndnYkpDX0Q5MU5qYkZHX2pGUmRZRVJVNTFPbTlfbEFwWG5RUzlsbU4zakxXekIxM0o0UE42bmpFVVItRkwxQnNQZl9yY25qZWM5cG1TS21mdHQ5SlRxNkF2am91RDBrcW12R01pU2xaUFRQaEE5TFNYQjRsX2FfR3c5LUt4bWpIZHc?oc=5",
+     "published": "2026-11-22T00:24+09:00"
+    },
+    {
+     "title": "유영우, 과소비 두려움 \"한 끼 5000원..헤어·메이크업 직접 해\"[전참시]",
+     "source": "스타뉴스",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPanNRMnVlNkNwMWlmT1g3dEFXY2VUMlNOWGhDcGEtUFoyTko3ZFRTelRyX1VHaHRBMnphaWpYYi0xWlV2X1luLVZWalo3SUF0a2NDdXZKSWhFMUpHV3lsb2RzeTM3c0NxWWNacjdLQlVpVHBJNnUzWTlxY3ltbkNFRg?oc=5",
+     "published": "2026-11-22T00:09+09:00"
+    },
+    {
+     "title": "딥루트 러닝 헤어밴드, 네이비, FREE, 2개",
+     "source": "toss.im",
+     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBfak5sM0dFb3hmQzg4SHZZdmhNWDEwdVNXaUpseE1memc3YTRocjRVNms5NGhaWjJLUVVpWFQzT1A?oc=5",
+     "published": "2026-11-21T23:43+09:00"
+    }
+   ]
+  },
+  {
+   "id": "global",
+   "name": "해외 헤어 뉴스",
+   "items": [
+    {
+     "title": "From rubbing shoulders with world's celebs to opening swanky Linthorpe salon: Meet the Lovemores",
+     "source": "Teesside Live",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQelVHeDZjUVpyd181c05qM2Qxa1FjVHBIUFItOWJIMEV2WnBORnktamRGNUhzV0czVEwyRFoyZGhyY3FtWm9lYVNqSDNGOEpsTThVNVNLbVhETzdVd0JWNjBBUU10cUhsOE9OZC1QRXpVSWI4QlNQUVhPRnQ1b2FpQk1xZ2FLY2JpZEktUDZMWV9JNDU5Z3fSAZsBQVVfeXFMTTNRNTJWOGJwQjk1dnV0Sjhtel85aXI0NHFzMjdvdjRKeDlOVGZyaHFKejRHVmM1MjRydVpCdi1hQm9BMDBHVUV3X0RsZ3VZTDVqbF9jN0RaUkxnalB6cmhTVWxRQzdBaU9kaGRFaW53Sl8wOElZNV8zak1GZ1BhZGJYelV2Y1BrWDZZTmtzd05haWswMlltZ2FuYVk?oc=5",
+     "published": "2026-11-22T09:01+09:00"
+    },
+    {
+     "title": "Jessica Simpson Debuts Darker Brunette Hair for Winter",
+     "source": "SSBCrack",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQczFuNUhMVnhLMHlUd1dVUWRMSkM0TjVyUi1yT1NRemJHZzBPTzV1R1N0QXRiR09xM0FNRXlpTURhODZQaUZkUVVrTl9nX1A5b3MzNzY3WTh6bG4weUd3d0lidkpzejFEUHFTbWZPVDhmVVVVUVJGdkJST1J4U2p2MEJ1Sk9TQVN3?oc=5",
+     "published": "2026-11-22T07:21+09:00"
+    },
+    {
+     "title": "EXCLUSIVE: Russell Brand 'Distraught' Over 'Denial of Hair Loss Medication in Jail'",
+     "source": "RadarOnline",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRDZFT3RHbTZvYVJkeDBaOVFWbTVUQng2ZDFQcC16QW1Wc1IwQU1DZDR3NXY3M2xjLTdtaHl0NUxQVEthcl83ZktKbEFfbHl4al9UY25mUTNJMFhGcElrTWE5UEdMVF9PdF9LamtNMEJfUnJyNXQzSEtoeDNPMWItNjBB?oc=5",
+     "published": "2026-11-22T07:00+09:00"
+    },
+    {
+     "title": "Local hairstylist chosen to lead at New York Fashion Week",
+     "source": "WKBN.com",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTGJTV1BOeWpXMk84TjVhWGUxQmxTZFlhRjEwRE8zLUR2TW43b192QTFFMVgxSDg0eUVwLUh3LU5XM1F2MmtTZ21wcnNvNndDNUUyRnF1WHptekJ6YnkwUUZxUExBZDFDaFZONVN5LXFIWDR6NFhhMGNfUzZiMFc3ZVBydmRYeXFjTVd3TllGRm5EaUNNZlg2UURmV1BibnV6VExjeVRlNWpqZlRtMXfSAbMBQVVfeXFMTWZXSnhHZlJlejQ0X1JuLWg3ZXd1QXVSQ1V2QnotbUNNS2NWdzRpX212cmt5RThaamExbEF4UEJPcmZ6YW9QdkF2a01Rdy15emZDVWxBRlNSVjVnS3hES1ZQZGRlTDNMODNKRzZMNmhRRzQxZkNvLW9kYXNTd1R5VElxQ3JlaVV5Q2NoQUF4ME10VTBPSjk1UjhNREhyRTFWbzlvOVpYU011NXJSLWM4dk5IQUE?oc=5",
+     "published": "2026-11-22T06:57+09:00"
+    },
+    {
+     "title": "The Best Hair-Washing Schedule for Women Over 50 To Keep Hair Fuller",
+     "source": "شبكة تواصل الإخبارية",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ydkZKbVlLeDlOeGlwUXFXRk10dU13ZmZmQW1KclY0Qm5fRkJCdUR0al8wcmRNdFA1VmNZTk1mTWg3dTJOSkNZNXFYZF9WTEFBSkRV?oc=5",
+     "published": "2026-11-22T05:43+09:00"
+    },
+    {
+     "title": "Can Red Light Therapy Help Your Hair Grow? What Dermatologists Want You to Know",
+     "source": "InStyle",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Wb1owTW9rbEQ0ZGFOc0lBRFRicmo1ZkROWmFTbUxWd3JEcWI2MlYtejJTbDhCanlndnU1TmRiNEtkR3dfOXJQYlZiQTZVS3M3T1hNVTNVdkxHdmJ1dUp6UDFNOEZSWWxyLUJHOGY3TQ?oc=5",
+     "published": "2026-11-22T05:20+09:00"
+    },
+    {
+     "title": "Trump's Hair and Makeup Bill Fuels RNC Revolt",
+     "source": "OK Magazine",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWVIaDdWQzJ5eTF3QVpHM0VWemZja1VwT2Y0X3FHYTMwTHFmSzlsNG1GTVpZak92ZFo3aDBIN3B6QVZJQk9abHdITGxvZWd0d19wbm90VFRWbXBCZ29TNE5HRThZc1EtOXdOeE82VDhyZzIybU1DT3FfdWtZSGlhampMeU5GenM4VzQ2ZUNJOEtLVHZiS0hvVFdRWXFUd0do?oc=5",
+     "published": "2026-11-22T05:13+09:00"
+    },
+    {
+     "title": "Jessica Simpson Trades Her Signature Blonde Locks for Brunette Hair: See Photo",
+     "source": "AOL.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMExYc205cHAzR210MWhmeWZVYTczUVItem0tTmFPX3ZQa19BMmxaMG9hRVFpQ25DTDhpcVlNRzZQRDNKS196N3IwQlJYWXFXS3NZNU1oRmFPVW5HaEZTUGlCOXhFRnEtUjc2OTVKWVlkclJvRlBYYmpqZ0FwSGNwUmZxNUVEa28?oc=5",
+     "published": "2026-11-22T04:54+09:00"
+    },
+    {
+     "title": "Meghan Markle’s ‘Private’ Lunch With Hairstylist Draws Attention After Restaurant Sends Photos To Subscribers",
+     "source": "The Blast",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOFpnUG1FWGZaNmpSMFZGZjRQeXdhTU1fQ2xDcDV1cTJJelRRRl9EVFhZVjhoVXl2SURHR243cHhYWWlEVkhFT1RWOXo4S3NHNGt5ZXBCVEFGZmVXbmM0Zi15SmlqTVhBeUV5VHhCc1ZoWVhRbHlwYUlGRFkwTDFoTnU2ODF0NlV0MmY1ZjZn?oc=5",
+     "published": "2026-11-22T04:30+09:00"
+    },
+    {
+     "title": "Column | I accidentally sent a Black woman to a racist hairstylist",
+     "source": "The Washington Post",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUYyNENjVU5CR3lZUEMtVUlBOGlkWVZNdDRmbVZXYTA3RkFxT0xoNnkycGlhRV8zTTZTOXlFSmE1Vm9tSHQ2MDR5R3VHa1dFeHA4bTRldDJyYzJMWndzS29fR2FFR3c0TmVEazg2VGM2OVFwR2JNZk1nbmFYNVVnMlBZYjV5T2duZjE4cHJieW1FQlZxbS1fSTBaRmttZDZVREMw?oc=5",
+     "published": "2026-11-22T03:00+09:00"
+    }
+   ]
+  },
+  {
+   "id": "trend",
+   "name": "트렌드·스타일",
+   "items": [
+    {
+     "title": "Amanda Bynes, 40, shows off wild new Cruella de Vil hairstyle after Ozempic weight loss",
+     "source": "Daily Mail",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd3d0WDQ5NE5kSUxJUFc4aXBpVmFnX1dKdXlnMWszUXBjZjBDTDFTSjlud0VGTTlvc3RrTFJRbFp2LU1iWjZpMGp2aWlKTk5JVnJ2QzZnaHQtc0ZOLXNTaF92c0ZsOTlxVFpvNkEzRVVwTm1yb1AxclBQT0FERWtfeXl1MUdlTjBncUlhdFVPLXM2cF9hUlV4clhTaVZKejZQSVE?oc=5",
+     "published": "2026-11-22T08:25+09:00"
+    },
+    {
+     "title": "G-Dragon's Long Hair Dominates MAMA Awards Stage",
+     "source": "조선일보",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeWJwR2dhN2RxTGZjR3FTVHFrUVk3UFFBOFZCNDZEMWs0eFpMdEx3dWl0WWNfWDVBODdFTjBnUDVFSjhBQmtwWXBiLUZvaTNkMGdHRnVTYlpfeEFKbEdPVy1uU1RxZHZtdkU5RGJ1RTVJc0xVMk15dmZUVGJ2d0ZhVWZTZDdkUmtGQ251d29R?oc=5",
+     "published": "2026-11-22T08:21+09:00"
+    },
+    {
+     "title": "Kelly Osbourne's Cherry Cola Hair Blends Rich Shades That Look Stunning For Winter 2026-2027",
+     "source": "Glam",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWTNpSGpmdDBqSEw0ZTl4dnR5NDVScG1pYmZqdjI1Mk1fcUJKbmlsX1hPRFBEU3ZoZmxtbF9kUGRDRU9ZeklYTEhJS2pyQjhTOVJNMHprUEFlc3V0Wk5tSkpLb1VkNEhEVmk1Z2FVdDN3ODF2SU5wTDRmaDIyX055ZHBvVHBBTURoZU5KVG51NzdqQmxZN1JPUVRfVU5wM0REa0VnaDdwQ2xLTkR5N194Rm16Z0NMZw?oc=5",
+     "published": "2026-11-22T06:00+09:00"
+    },
+    {
+     "title": "‘Royal women not hiding their grey hair has made me slightly more comfortable about mine’",
+     "source": "Nine.com.au",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWno4UWxmMGpjby1sMWdTRHRIZDRWZE9XTHNrM0lWMkFTX2xrNl9scHo1YlpWXzFsX0JxVHFLdjVudDNESFk0Zml1dE02c0tkUkE5bk12TWExeFJydS1LSnFJSl9fUGFfdW13UkxuUENHajgzOGxJSm9iZHh3LS1YLUdyUFFpa1VPRjV4QnZRT0wzanRLM294YXVfU2MyX2xpT3ExRlYtaFFsSFhJTXNQaTU5X3BTWTc4N2ZhYnZuallsY1Vmc2JMR2Q0N3FEcDFUMGZNbTZ0eFRuRHhXTWhWWlZsalAtcThaYVVlZFgwS2ctU21oR2tmeDVJVEFNUQ?oc=5",
+     "published": "2026-11-22T04:00+09:00"
+    },
+    {
+     "title": "G-Dragon's Long Hair Sparks Playful Moment at MAMA",
+     "source": "조선일보",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbmhUQVNjOUFic2ZHd2Q5ZmQwUXg0dnc3cF9yT2U0ZS00MXZNdXFQN2tMeUJsWnY5Z1ZaRzNPZEV3YW90Zm5vSXdvSU9QNmxSUzZFQ2ZYT2FSMFJnOUJ2WU1Jd2FsOTVuMDdTbGxSREc4cFAyTnpxcWdEak9wQ29yU1dTbEl0SGhvRzBNQjlB?oc=5",
+     "published": "2026-11-21T21:19+09:00"
+    },
+    {
+     "title": "Nicole Kidman’s Tousled Ponytail Is The Easiest Way To Make Mature Hair Look Fuller: How To Get The Look",
+     "source": "ELLE",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcjk3SGxvLS1XVm1lODJOME9PdC0waFBnQW90OWsxR0hScnRDeF9XekxBdUdJOU44WEtaVm9BM3p2OHdIVXJkMFBTVkt2YVduZWNrM1hHajhJYTdubFprNWN1TnFqR3FPNUlteUxPYl9KOGkxdld6T3JseXhsLUVxU0l3?oc=5",
+     "published": "2026-11-21T19:18+09:00"
+    },
+    {
+     "title": "Iris Mittenaere Changes Her Hair Colour, Swapping Blonde for a Luminous Bronde",
+     "source": "Paris Select Book",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN2ZxZGM2TnhZWXE0OExfMGhWV3plUE9mdnYxZWJwYXJyREhrM3pGejljd2UzUnJLX0c5N0Iwa0ZBb2xSVld6TkdHaThBdkg2M1prT195cHdkNVN4Q3VIWmxEazdZcFJxR1IyajljcUhQeUhWekpCelM1N1JiZzJscUkwME4xZUlaaGFEcU8zeXlzTEhteTlwT1E3ZFJpVkp3OS1La1QzdVowZ003YTFQcThib2hvYzluOWU4endmX2pnQQ?oc=5",
+     "published": "2026-11-21T18:45+09:00"
+    },
+    {
+     "title": "New electric comb claims nearly 98% hair regrowth in mouse study | Tap to know more | Inshorts",
+     "source": "Inshorts",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWWdYUXd6T0h1MWF0UlFNenZvcHgwVlBKWkduVi14d05CWlVHbWJmX21Nc3ZyTm9LVS04NTlxT1BacXppUndCX0VuOE9vc01waV9IdGFhNGZXNHVCRTduYmRLaUVEVzkxRE9sZnJlUDhqZnVLdWRFM0ppOXFmNE1BSWNFVjBCREtwSHExU21tOUFxOEdMandzalBMdW14N3lWdnI0TTJXUWQxLVHSAbABQVVfeXFMT2tLZTRUZVhPaXhndVdEcHpOTXpLVnZZMWFzSVMzMklSOEI3cXNOZE1vM0E2RFEzT2Z3RFpTVWpDMzVhS2ZYaVlpSFIxZkhWMHBqZTFwczEyMGl0T0FydmgweU4tam5vSjhFUjlMR0Z4UVlXSjFUM0cyT05BNVJPcXU4X0U5bDZEcUxZdUtKdVRCZmo5bjNCWi1md0ZEeC1yMkZVb3lkTFB0U3N1SWVQQnQ?oc=5",
+     "published": "2026-11-21T14:13+09:00"
+    }
+   ]
+  },
+  {
+   "id": "product",
+   "name": "헤어 제품·브랜드 소식",
+   "items": [
+    {
+     "title": "Hair Botox Treatments Market: Wella, Henkel and Kao Expand",
+     "source": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ0ljdmNoUF9udW5LMU1GaXQ4b1NHZmNnNFBwZVpYelF6Z0V6eC1oUUVKQUpqY3Q3TXRwNnlLbVpGOWg1OXNwQXJuelIzVVFVX2hxdTM4NEk0RGlWc0hGMWprbno3SDg2UldlNmFSU2ZDalREejBnRXp2MWVTWkVoRWxpcmE2U29NYkxpbVN1cXd1VVR0Y0pR?oc=5",
+     "published": "2026-11-21T13:01+09:00"
+    },
+    {
+     "title": "Laser Hair Growth Caps Market Competitive Analysis: HairMax,",
+     "source": "openPR.com",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVnI2eTE1UGZERVo1OXpyY3hLMjFPN05ZMFBVRHZhYVVDenZZUjJZVm9aTVQ1d2pub1VoYXl5OVNiYjRtWDFHN2tEUmVhYXlBTmNFSGM2QmFEVmRnODcwX0hMNEZJZmRtcFdTOElfc3hLdDg1Sk1VR3o1QTBHdkw2Nk5sTUdvSDY4UGg5VlE0RmYtc1lHN080N2pR?oc=5",
+     "published": "2026-11-21T12:48+09:00"
+    },
+    {
+     "title": "Wella Professionals Unveils “Make It You” Campaign – A Global Invitation To Own Your Story Through Hair",
+     "source": "Passionate In Marketing",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZzc2allsU0FKcmVpRDZOazZ1VHFYTG1TdFFzV3VGb0t1LXdVd2gtN19Nc1Fic3kzREN1VElzLU5QdjBldW9aWU01c3p2Ylh6c0pUcFZTaW1zendTZGNUbUZLNy1BMFN0Q3ltOFRidFB1TUk5Y1Y1V2VIT0lzX1hWRjMweGxybElfY2V4WkpaSVFhUE1haGoyX0pkUDRNOWlMZWhuMm0wVXBxc24zZnoxQ3dNR0IxbGZnRHQ2WWkwRXNkekZvMnZNQkExa2s2ZXU3bEFZRg?oc=5",
+     "published": "2026-11-21T11:25+09:00"
+    }
+   ]
+  }
+ ]
+}
